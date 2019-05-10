@@ -227,7 +227,7 @@ namespace CSGO_Quiz
                 {
                     Console.WriteLine(Ungueltig[0]);
                 }
-            } while (Antwort != "1" || Antwort != "2" || Antwort != "3");
+            } while (true);
         }
         static void _Auswertung2()
         {
@@ -248,7 +248,7 @@ namespace CSGO_Quiz
                 {
                     Console.WriteLine(Ungueltig[0]);
                 }
-            } while (Antwort != "1" || Antwort != "2" || Antwort != "3");
+            } while (true);
         }
         static void _Auswertung3()
         {
@@ -269,7 +269,7 @@ namespace CSGO_Quiz
                 {
                     Console.WriteLine(Ungueltig[0]);
                 } 
-            } while (Antwort != "1" || Antwort != "2" || Antwort != "3") ;
+            } while (true) ;
         }
         static void _PlayerScore()
         {
